@@ -63,3 +63,30 @@ for i in range(0,len(slicing)):
     print(slicing[i],end=" , ")
 
 print("\n")
+
+from array import *
+a = array('i',[1,2,3,4,5,6,7,8,9,10])
+slicing = a[1:-2] # if we don't want the last 2 elements
+
+for i in range(0,len(slicing)):
+    print(slicing[i],end=" , ")
+
+print("\n")
+
+
+from array import *
+a = array('i',[1,2,3,4,5,6,7,8,9,10])
+slicing = a[::-1] # no starting idx and not ending idx 
+
+for i in range(0,len(slicing)):
+    print(slicing[i],end=" , ")
+
+print("\n")
+
+from array import *
+a = array('i',[1,2,3,4,5,6,7,8,9,10])
+slicing = a[1:7:2] # 2 step jumps
+
+for i in range(0,len(slicing)):
+    print(slicing[i],end=" , ")
+print("\n")
