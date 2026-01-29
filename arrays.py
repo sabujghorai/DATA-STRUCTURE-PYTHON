@@ -40,3 +40,26 @@ val[2] = 100 # replace the second element with 100
 for i in range(0,len(val)):
     print(val[i],end=" ")
 print("\n")
+
+# make a copy of the old array and print the value 
+from array import *
+val = array('i',[1,2,3,4,5,6])
+new_array = array(val.typecode,(x for x in val))
+# new_array = array(val.typecode,(x*2 for x in val))
+
+# new_array.pop(3) # to remove the el of index 3
+new_array.remove(4) # to remove the element directly
+
+
+for i in range (0,len(new_array)):
+    print(new_array[i],end=" ")
+print("\n")
+
+from array import *
+a = array('i',[1,2,3,4,5,6,7,8,9,10])
+slicing = a[1:7] # idx 7 will not print
+
+for i in range(0,len(slicing)):
+    print(slicing[i],end=" , ")
+
+print("\n")
