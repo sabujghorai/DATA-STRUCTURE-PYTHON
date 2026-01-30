@@ -33,5 +33,3 @@ ll = Linkedlist()
 mid = ll.middleNode(n1)
 
 print("Middle Node:", mid.data)
-
-print("hello world")
