@@ -24,6 +24,15 @@ class DoubleLL:
         t.next = temp
         temp.prev = t
 
+    def insertAtTheBeg(self,value): # Insert at the begeining
+        temp = Node(value)
+        if(self.head == None):
+            self.head = temp
+            return
+        temp.next = self.head
+        self.head.prev = temp
+        self.head = temp
+
     def printDLL(self):
         t = self.head
         while(t.next != None):
@@ -36,4 +45,5 @@ obj.insertAtTheEnd(10)
 obj.insertAtTheEnd(20)
 obj.insertAtTheEnd(30)
 obj.insertAtTheEnd(40)
+obj.insertAtTheBeg(5)
 obj.printDLL()
