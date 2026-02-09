@@ -10,5 +10,6 @@ class DoubleLL:
 
     def insertAtTheEnd(self,value):
         temp = Node(value)
-        
-    
+        if(self.head == None):
+            self.head = temp
+            return
