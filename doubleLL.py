@@ -21,4 +21,16 @@ class DoubleLL:
         t.next = temp
         temp.prev = t
 
-        
+    def printDLL(self):
+        t = self.head
+        while(t.next != None):
+            print(t.data)
+            t = t.next
+        print(t.data)
+
+obj = DoubleLL()
+obj.insertAtTheEnd(10)
+obj.insertAtTheEnd(20)
+obj.insertAtTheEnd(30)
+obj.insertAtTheEnd(40)
+obj.printDLL()
