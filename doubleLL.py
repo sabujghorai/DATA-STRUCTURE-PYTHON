@@ -42,7 +42,7 @@ class DoubleLL:
             else:
                 t = t.next
         temp = Node(value)
-        
+        temp.next = t.next
 
 
 
