@@ -58,6 +58,7 @@ class DoubleLL:
 obj = DoubleLL()
 obj.insertAtTheEnd(10)
 obj.insertAtTheEnd(20)
+obj.inserAtTheMid(25)
 obj.insertAtTheEnd(30)
 obj.insertAtTheEnd(40)
 obj.insertAtTheBeg(5)
