@@ -45,7 +45,7 @@ class DoubleLL:
         temp.next = t.next
         t.next.prev = temp
         t.next = temp
-
+        temp.prev = t
 
 
     def printDLL(self):
