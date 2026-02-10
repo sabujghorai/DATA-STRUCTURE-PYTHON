@@ -43,6 +43,7 @@ class DoubleLL:
                 t = t.next
         temp = Node(value)
         temp.next = t.next
+        t.next.prev = temp
 
 
 
