@@ -11,7 +11,7 @@ class DoubleLL:
     def __init__(self):
         self.head = None
 
-    def insertAtTheEnd(self,value):
+    def insertAtTheEnd(self,value): # Insert at the End
         temp = Node(value)
         if(self.head == None):
             self.head = temp
@@ -32,6 +32,19 @@ class DoubleLL:
         temp.next = self.head
         self.head.prev = temp
         self.head = temp
+
+    def inserAtTheMid(self,value,x):
+        t = self.head
+
+        while(t.next != None):
+            if(t.data == x):
+                break
+            else:
+                t = t.next
+        temp = Node(value)
+        
+
+
 
     def printDLL(self):
         t = self.head
