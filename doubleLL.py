@@ -60,6 +60,8 @@ class DoubleLL :
                 t.prev.next = t.next
                 t.next.prev = t.prev
                 return
+            else:
+                t = t.next
         if(t.data == value):
             t.prev.next = None
 
@@ -78,4 +80,5 @@ obj.InsertAtBegeining(5)
 obj.InsertAtMiddle(15,10) # insert 15 after 10
 obj.InsertAtMiddle(25,20) # insert 25 after 20
 obj.deletionDLL(5)
+obj.deletionDLL(30)
 obj.printDLL()
