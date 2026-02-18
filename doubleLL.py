@@ -30,6 +30,10 @@ class DoubleLL :
         self.head.prev = temp
         self.head = temp
 
+    def InsertAtMiddle(self,value,x):
+        t = self.head
+
+
     def printDLL(self):
         t = self.head
         while(t.next != None):
