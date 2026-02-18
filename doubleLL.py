@@ -29,4 +29,7 @@ class DoubleLL :
         print(t.data)
 
 obj  = DoubleLL()
-obj.printDLL(10)
+obj.insertAtTheEnd(10)
+obj.insertAtTheEnd(20)
+obj.insertAtTheEnd(30)
+obj.printDLL()
