@@ -40,7 +40,9 @@ class DoubleLL :
                 t = t.next
         temp = Node(value)
         temp.next = t.next
-        
+        t.next.prev = next
+        t.next = temp
+        temp.prev = t
 
 
     def printDLL(self):
