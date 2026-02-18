@@ -12,3 +12,8 @@ class DoubleLL :
         temp = Node(value)
         if(self.head == None):
             self.head = temp
+            return
+        
+        t = self.head
+        while(t.next != None):
+            t = t.next
