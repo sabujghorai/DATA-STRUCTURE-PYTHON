@@ -53,8 +53,11 @@ class DoubleLL :
         if(t.data == value): # code for deletion at the begeinning
             self.head = t.next
             self.head.prev = None #upto this
+            return
+        
         # while(t.next != None):
         #     if(t.data == value):
+
 
 
 
