@@ -21,6 +21,10 @@ class DoubleLL :
         t.next = temp
         temp.prev = t
 
+    def InsertAtBegeining(self,value):
+        temp = Node(value)
+        
+
     def printDLL(self):
         t = self.head
         while(t.next != None):
