@@ -57,4 +57,5 @@ obj.insertAtTheEnd(10)
 obj.insertAtTheEnd(20)
 obj.insertAtTheEnd(30)
 obj.InsertAtBegeining(5)
+obj.InsertAtMiddle(15,10) # insert 15 after 10
 obj.printDLL()
