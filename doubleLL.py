@@ -38,6 +38,8 @@ class DoubleLL :
                 break
             else:
                 t = t.next
+        temp = Node(value)
+        temp.next = t.next
         
 
 
