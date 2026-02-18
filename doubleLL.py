@@ -47,6 +47,7 @@ class DoubleLL :
     def deletionDLL(self,value):
         if(self.head == None):
             print("The linked list is empty ")
+            return
 
 
 
