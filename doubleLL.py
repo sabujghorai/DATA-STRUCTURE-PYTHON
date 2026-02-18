@@ -8,4 +8,5 @@ class DoubleLL :
     def __init__(self):
         self.head = None
 
-    
+    def insertAtTheEnd(self,value):
+        temp = Node(value)
