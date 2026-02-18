@@ -19,4 +19,14 @@ class DoubleLL :
             t = t.next
 
         t.next = temp
-        temp.prev = t 
+        temp.prev = t
+
+    def printDLL(self):
+        t = self.head
+        while(t.next != None):
+            print(t.data)
+            t = t.next
+        print(t.data)
+
+obj  = DoubleLL()
+obj.printDLL(10)
