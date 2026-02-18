@@ -23,7 +23,9 @@ class DoubleLL :
 
     def InsertAtBegeining(self,value):
         temp = Node(value)
-        
+        if(self.head == None):
+            self.head = temp
+            return
 
     def printDLL(self):
         t = self.head
