@@ -6,4 +6,6 @@ class Node :
 
 class DoubleLL :
     def __init__(self):
-        self.value = None
+        self.head = None
+
+    
