@@ -55,8 +55,13 @@ class DoubleLL :
             self.head.prev = None #upto this
             return
         
-        # while(t.next != None):
-        #     if(t.data == value):
+        while(t.next != None):
+            if(t.data == value):
+                t.prev.next = t.next
+                t.next.prev = t.prev
+                return
+        if(t.data == value):
+            t.prev.next = None
 
 
 
