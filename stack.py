@@ -19,3 +19,10 @@ class Stack:
             raise Exception("The stack is empty")
         else:
             return self.s.pop(0)
+        
+stk = Stack()
+stk.push(10)
+stk.push(20)
+stk.push(30)
+stk.push(40)
+print(stk.peek())
