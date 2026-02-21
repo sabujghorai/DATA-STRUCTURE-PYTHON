@@ -31,3 +31,4 @@ print(stk.peek()) # print the top element
 print(stk.pop())
 stk.push(50)
 print(stk.peek())
+print(stk.pop())
