@@ -29,4 +29,5 @@ print(stk.pop()) # delete the top element 40 and print 40 also
 print(stk.pop()) # delete the top element which is 30 now and print also
 print(stk.peek()) # print the top element
 print(stk.pop())
-print(stk.pop())
+stk.push(50)
+print(stk.peek())
