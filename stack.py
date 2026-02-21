@@ -7,3 +7,9 @@ class Stack:
     
     def push(self,value):
         self.s.insert(0,value)
+
+    def peek(self):
+        if len(self.s) == 0 :
+            raise Exception("The stack is empty")
+        else:
+            return self.s[0]
