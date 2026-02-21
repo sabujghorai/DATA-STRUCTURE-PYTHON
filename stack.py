@@ -13,3 +13,9 @@ class Stack :
             raise Exception("The stack is empty")
         else:
             return self.s[0]
+        
+    def pop(self):
+        if len(self.s) == 0:
+            raise Exception("The stack is empty")
+        else:
+            return self.s.pop(0)
