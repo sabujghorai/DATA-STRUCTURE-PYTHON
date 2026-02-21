@@ -25,5 +25,6 @@ stk.push(10)
 stk.push(20)
 stk.push(30)
 stk.push(40)
-print(stk.pop())
-print(stk.pop())
+print(stk.pop()) # delete the top element and print it which is 40
+print(stk.pop()) # delete the top element and print it which is 30
+print(stk.peek()) # print the top element which is now 20
