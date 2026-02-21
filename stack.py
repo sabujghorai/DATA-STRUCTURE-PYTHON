@@ -5,7 +5,7 @@ class Stack:
     def length(self):
         return len(self.s)
     
-    def push(self,value):
+    def push(self,value): # to insert element at top
         self.s.insert(0,value)
 
     def peek(self): # TO see the top element
