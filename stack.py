@@ -28,3 +28,29 @@
 # print(stk.pop()) # delete the top element and print it which is 40
 # print(stk.pop()) # delete the top element and print it which is 30
 # print(stk.peek()) # print the top element which is now 20
+
+
+
+
+class Stack :
+    def __init__(self):
+        self.st = []
+
+    def push(self,value):
+        self.st = [value]+self.st
+
+    def pop(self):
+        if len(self.st) == 0 :
+            print("the stack is empty")
+        else:
+            return self.st.pop(0)
+
+ptr = Stack()
+ptr.push(10)
+ptr.push(20)
+ptr.push(30)
+ptr.push(40)
+print(ptr.st)
+ptr.pop()
+ptr.pop()
+print(ptr.st)
