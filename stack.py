@@ -50,7 +50,7 @@ ptr.push(10)
 ptr.push(20)
 ptr.push(30)
 ptr.push(40)
-print(ptr.st)
+print(ptr.st) # [40,30,20,10]
 ptr.pop()
 ptr.pop()
-print(ptr.st)
+print(ptr.st) # [20, 10]
