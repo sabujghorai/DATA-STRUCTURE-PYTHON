@@ -16,3 +16,5 @@ class Queue:
             self.qe.pop(0)
 q = Queue()
 q.insert(10)
+q.insert(20)
+q.insert(30)
