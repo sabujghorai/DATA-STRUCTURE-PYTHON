@@ -37,5 +37,5 @@ print(dq.deleteAtEnd()) # delete 30 and print 30
 print(dq.deleteAtFront()) # delete 50 and print 50
 print(dq.deleteAtFront()) # delete 20 and print 20
 print(dq.deleteAtFront()) # delete 10 and print 10
-dq.deleteAtFront()
-dq.deleteAtEnd()
+dq.deleteAtFront() # print The queue is empty
+dq.deleteAtEnd() # print The queue is empty
