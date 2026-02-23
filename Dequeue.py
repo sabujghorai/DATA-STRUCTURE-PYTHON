@@ -16,4 +16,13 @@ class Dequeue:
         
     def insertAtFront(self,value):
         self.items.insert(0,value)
-        
+
+    def deleteAtEnd(self):
+        if (self.isEmpty) == 0:
+            print("The Queue is empty")
+        else:
+            return self.items.pop(0)
+        return self.items.pop()
+    
+dq = Dequeue()
+dq.insertAtEnd(10)
