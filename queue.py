@@ -4,3 +4,6 @@ class Queue:
 
     def isEmpty(self):
         return "the queue is empty"
+    
+    def insert(self,values):
+        self.qu.append(values)
