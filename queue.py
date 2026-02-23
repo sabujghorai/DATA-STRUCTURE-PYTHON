@@ -20,3 +20,4 @@ q.insert(30)
 print(q.delete()) # delete the first element --> 10
 print(q.delete()) # delete the second element --> 20
 print(q.delete()) # delete the third element --> 30
+print(q.delete()) # 
