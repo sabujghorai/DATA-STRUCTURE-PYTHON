@@ -12,7 +12,7 @@ class Queue:
         if (self.isEmpty()):
             print("The queue is empty")
         else:
-            self.items.pop(0)
+            return self.items.pop(0)
 q = Queue()
 q.insert(10)
 q.insert(20)
