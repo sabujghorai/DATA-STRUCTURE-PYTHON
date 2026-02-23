@@ -32,6 +32,10 @@ dq.insertAtEnd(30)
 dq.insertAtEnd(40)
 dq.insertAtFront(50)
 
-print(dq.deleteAtEnd())
-print(dq.deleteAtEnd())
-print(dq.deleteAtFront())
+print(dq.deleteAtEnd()) # delete 40 and print 40
+print(dq.deleteAtEnd()) # delete 30 and print 30
+print(dq.deleteAtFront()) # delete 50 and print 50
+print(dq.deleteAtFront()) # delete 20 and print 20
+print(dq.deleteAtFront()) # delete 10 and print 10
+dq.deleteAtFront()
+dq.deleteAtEnd()
