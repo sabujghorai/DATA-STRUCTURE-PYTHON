@@ -1,6 +1,6 @@
 class Queue:
     def __init__(self):
-        self.qe = []
+        self.qu = []
 
     def isEmpty(self):
         if len(self.qe) == 0:
