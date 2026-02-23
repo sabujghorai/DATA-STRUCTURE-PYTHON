@@ -1,18 +1,18 @@
 class Queue:
     def __init__(self):
-        self.qu = []
+        self.items = []
 
     def isEmpty(self):
-        return len(self.qu) == 0
+        return len(self.items) == 0
     
     def insert(self,values):
-        self.qu.append(values)
+        self.items.append(values)
 
     def delete(self):
         if (self.isEmpty()):
             print("The queue is empty")
         else:
-            self.qu.pop(0)
+            self.items.pop(0)
 q = Queue()
 q.insert(10)
 q.insert(20)
