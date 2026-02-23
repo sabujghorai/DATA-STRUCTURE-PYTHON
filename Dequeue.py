@@ -8,4 +8,6 @@ class Dequeue:
     def insertAtEnd(self,value):
         self.items.append(value)
 
-    
+    def deleteAtFront(self):
+        if (self.isEmpty) == 0:
+            print("The Queue is empty")
