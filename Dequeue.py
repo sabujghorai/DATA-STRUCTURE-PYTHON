@@ -34,4 +34,4 @@ dq.insertAtFront(50)
 
 print(dq.deleteAtEnd())
 print(dq.deleteAtEnd())
-print(dq.deleteAtEnd())
+print(dq.deleteAtFront())
