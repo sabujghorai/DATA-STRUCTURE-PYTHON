@@ -22,7 +22,11 @@ class Dequeue:
             print("The Queue is empty")
         else:
             return self.items.pop(0)
-        return self.items.pop()
     
 dq = Dequeue()
 dq.insertAtEnd(10)
+dq.insertAtFront(20)
+dq.insertAtEnd(30)
+dq.insertAtEnd(40)
+dq.insertAtFront(50)
+print(dq.deleteAtEnd())
