@@ -14,5 +14,6 @@ class Dequeue:
         else:
             return self.items.pop(0)
         
-    def insertAtFront(self):
-        self.items.insert(0,)
+    def insertAtFront(self,value):
+        self.items.insert(0,value)
+        
