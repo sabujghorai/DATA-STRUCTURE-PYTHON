@@ -11,3 +11,6 @@ class Dequeue:
     def deleteAtFront(self):
         if (self.isEmpty) == 0:
             print("The Queue is empty")
+        else:
+            return self.items.pop(0)
+        
