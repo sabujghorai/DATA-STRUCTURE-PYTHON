@@ -15,3 +15,4 @@ class Queue:
         else:
             self.qe.pop(0)
 q = Queue()
+q.insert(10)
