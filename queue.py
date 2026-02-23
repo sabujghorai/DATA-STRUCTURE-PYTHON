@@ -3,7 +3,7 @@ class Queue:
         self.qu = []
 
     def isEmpty(self):
-        if len(self.qe) == 0:
+        if len(self.qu) == 0:
             print("The queue is empty")
     
     def insert(self,values):
