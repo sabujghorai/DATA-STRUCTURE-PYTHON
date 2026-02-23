@@ -14,3 +14,4 @@ class Queue:
             print("The queue is empty")
         else:
             self.qe.pop(0)
+q = Queue()
