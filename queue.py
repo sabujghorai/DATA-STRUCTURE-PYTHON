@@ -9,4 +9,8 @@ class Queue:
     def insert(self,values):
         self.qu.append(values)
 
-    
+    def delete(self):
+        if (self.isEmpty()):
+            print("The queue is empty")
+        else:
+            self.qe.pop(0)
