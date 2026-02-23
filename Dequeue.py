@@ -5,4 +5,7 @@ class Dequeue:
     def isEmpty(self):
         return len(self.items) == 0
     
+    def insert(self,value):
+        self.items.append(value)
+
     
