@@ -14,3 +14,5 @@ class Dequeue:
         else:
             return self.items.pop(0)
         
+    def insertAtFront(self):
+        self.items.insert(0,)
