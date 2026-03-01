@@ -14,14 +14,12 @@ class Queue :
     def isEmpty(self):
         if len(self.value) == 0:
             raise Exception("The queue is empty")
+        else:
+            Queue()
 
 Q = Queue()
-Q.insert(10)
-Q.insert(20)
-Q.insert(30)
-Q.insert(40)
-print(Q.delete())
-print(Q.delete())
-print(Q.delete())
+Q.insert(int(input("Enter a number :")))
+Q.insert(int(input("Enter a number :")))
+Q.insert(int(input("Enter a number :")))
 print(Q.delete())
 print(Q.delete())
