@@ -9,4 +9,4 @@ class Queue :
         if len(self.value) == 0 :
             print("The queue is empty")
         else:
-            return self.pop()
+            return self.pop(0)
