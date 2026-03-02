@@ -4,9 +4,3 @@ class CircularQueue:
     
     def insert(self,data):
         self.value.append(data)
-
-    def delete(self):
-        if len(self.value) == 0:
-            raise Exception("The queue is empty")
-        
-    
