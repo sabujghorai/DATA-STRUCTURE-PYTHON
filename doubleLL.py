@@ -14,7 +14,7 @@ class DoubleLL :
             self.head = temp
             return
         
-        t = self.head
+        t = self.head 
         while(t.next != None):
             t = t.next
 
