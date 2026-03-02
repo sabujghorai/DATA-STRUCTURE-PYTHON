@@ -8,7 +8,5 @@ class CircularQueue:
     def delete(self):
         if len(self.value) == 0:
             raise Exception("The queue is empty")
-        else :
-            self.value.pop(0)
-    
+        
     
