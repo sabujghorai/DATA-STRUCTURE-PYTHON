@@ -10,3 +10,5 @@ class CircularQueue:
         elif self.front == -1 : # checks the queue is empty ot not
             self.front = self.rear = 0
             self.item[self.rear] = value
+        else:
+            self.rear = (self.rear +1) % self.size
