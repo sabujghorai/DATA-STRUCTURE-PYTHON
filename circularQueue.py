@@ -13,3 +13,7 @@ class CircularQueue:
         else:
             self.rear = (self.rear +1) % self.size
             self.item[self.rear] = value
+
+    def Dequeue(self):
+        if (self.front == -1): # checks the queue is empty or not
+            print("the Queue is Empty")
