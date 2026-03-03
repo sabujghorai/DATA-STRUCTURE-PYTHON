@@ -31,7 +31,10 @@ CQ.enqueue(30)
 CQ.enqueue(40)
 CQ.enqueue(50)
 CQ.dequeue() # delete 10
-CQ.dequeue() # delete 20
-CQ.dequeue() # delete 30
-CQ.dequeue() # delete 40
-CQ.dequeue() # delete 50 
+CQ.enqueue(60) # insert the value at insex no 0
+CQ.enqueue(70) # prints the queue is full
+CQ.dequeue() # deletes the 20
+CQ.dequeue() # deletes the 30
+CQ.dequeue() # deletes the 40
+CQ.dequeue() # deletes the 50
+CQ.dequeue() # prints the queue is empty
