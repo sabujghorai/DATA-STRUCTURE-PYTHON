@@ -22,5 +22,5 @@ class CircularQueue:
             self.front = self.rear = -1
         else:
              print(self.item[self.front])
-             
+             self.front = (self.front + 1)% self.size
 
