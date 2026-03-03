@@ -29,8 +29,9 @@ CQ.enqueue(10)
 CQ.enqueue(20)
 CQ.enqueue(30)
 CQ.enqueue(40)
-print(CQ.dequeue()) # delete 10
-print(CQ.dequeue()) # delete 20
-print(CQ.dequeue()) # delete 30
-print(CQ.dequeue()) # delete 40
-print(CQ.dequeue()) # delete 50
+CQ.enqueue(50)
+CQ.dequeue() # delete 10
+CQ.dequeue() # delete 20
+CQ.dequeue() # delete 30
+CQ.dequeue() # delete 40
+CQ.dequeue() # delete 50 
