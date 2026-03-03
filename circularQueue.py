@@ -17,3 +17,10 @@ class CircularQueue:
     def Dequeue(self):
         if (self.front == -1): # checks the queue is empty or not
             print("the Queue is Empty")
+        elif self.front == self.rear: # means the queue has only one element
+            print(self.item[self.front])
+            self.front = self.rear = -1
+        else:
+             print(self.item[self.front])
+             
+
