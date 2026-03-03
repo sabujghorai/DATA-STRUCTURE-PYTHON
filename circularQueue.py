@@ -3,4 +3,8 @@ class CircularQueue:
         self.size = size
         self.item = [None]*size
         self.front = self.real = -1
+
+    def Enqueue(self,value):
+        if ((self.rear + 1)% self.front ):
+            print("The queue is full")
         
