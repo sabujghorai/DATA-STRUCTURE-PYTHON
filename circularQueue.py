@@ -29,4 +29,8 @@ CQ.enqueue(10)
 CQ.enqueue(20)
 CQ.enqueue(30)
 CQ.enqueue(40)
-CQ.enqueue(50)
+print(CQ.dequeue()) # delete 10
+print(CQ.dequeue()) # delete 20
+print(CQ.dequeue()) # delete 30
+print(CQ.dequeue()) # delete 40
+print(CQ.dequeue()) # delete 50
