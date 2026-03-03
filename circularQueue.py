@@ -7,4 +7,5 @@ class CircularQueue:
     def Enqueue(self,value): # code for insertion
         if ((self.rear + 1)% self.front ):
             print("The queue is full")
-        
+        elif self.front == -1 : # checks the queue is empty ot not
+            self.front = self.rear = 0
