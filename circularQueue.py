@@ -12,3 +12,4 @@ class CircularQueue:
             self.item[self.rear] = value
         else:
             self.rear = (self.rear +1) % self.size
+            self.item[self.rear] = value
