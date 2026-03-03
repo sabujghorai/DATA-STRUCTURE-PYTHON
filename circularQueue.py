@@ -9,3 +9,4 @@ class CircularQueue:
             print("The queue is full")
         elif self.front == -1 : # checks the queue is empty ot not
             self.front = self.rear = 0
+            self.item[self.rear] = value
