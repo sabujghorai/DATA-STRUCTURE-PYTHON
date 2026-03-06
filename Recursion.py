@@ -1,11 +1,11 @@
-# # Write a program using recursion to print the factorial of a number n take input from the user
-# def factorial(n):
-#     if(n == 0 or n == 1):
-#         return 1
-#     return n * factorial(n-1)
+# Write a program using recursion to print the factorial of a number n take input from the user
+def factorial(n):
+    if(n == 0 or n == 1):
+        return 1
+    return n * factorial(n-1)
 
-# b = int(input("Enter a number :"))
-# print("The factorial of your number is : ", factorial(b))
+b = int(input("Enter a number :"))
+print("The factorial of your number is : ", factorial(b))
 
 # Write a program to print the fibonacci series using recursion
 def fibonacci(n):
