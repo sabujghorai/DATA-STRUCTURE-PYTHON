@@ -14,3 +14,4 @@ def fibonacci(n):
     return fibonacci(n-1)+fibonacci(n-2)
 
 c = int(input("Enter a number for your fibonacci series :"))
+print("The fibonacci term is :" , fibonacci(c))
