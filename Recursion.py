@@ -1,8 +1,9 @@
 a = int(input("Enter a number : "))
-if a<1 :
-    print("Factorial doesn't exist or negetive numbers..")
+fact = 1
+if a < 0:
+    print("Factorial doesn't exist for negative numbers.")
 else:
-    fact = 1
-    for i in range(1, a+1):
-        fact = fact*i
-print("The factorial is :",fact)
+    for i in range(1, a + 1):
+        fact = fact * i
+    print("The factorial is:", fact)
+    
