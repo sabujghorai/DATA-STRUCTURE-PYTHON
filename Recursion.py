@@ -19,5 +19,7 @@
 # write a program to find the sum of n natural number
 def sum(a):
     if(a == 0):
-        return 1
+        return 0
     return a + sum(a-1)
+k = int(input("Enter the term :"))
+print("The sum of all your n th term is :", sum(k))
