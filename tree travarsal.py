@@ -34,5 +34,8 @@ root.left.right = Node(4)
 root.right.right = Node(8)
 
 preOrder(root)
+print("\n")
 Inorder(root)
+print("\n")
 postOrder(root)
+print("\n")
