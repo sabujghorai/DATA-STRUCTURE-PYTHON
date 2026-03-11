@@ -4,6 +4,12 @@ class Node :
         self.right = None
         self.data = value
 
+def preOrder(root):
+    if(root != None):
+        print(root.data , end = " ")
+
+
+
 # Tree
 root = Node(1)
 root.left = Node(3)
