@@ -11,6 +11,20 @@ def preOrder(root):
         preOrder(root.right)
 
 
+def Inorder(root):
+    if(root != None):
+        Inorder(root.left)
+        print(root.data , end = " ")
+        Inorder(root.right)
+
+def postOrder(root):
+    if(root != None):
+        postOrder(root.left)
+        postOrder(root.right)
+        print(root.data , end = " ")
+
+
+
 # Tree
 root = Node(1)
 root.left = Node(3)
