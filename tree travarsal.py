@@ -4,6 +4,7 @@ class Node :
         self.right = None
         self.data = value
 
+# Tree
 root = Node(1)
 root.left = Node(3)
 root.right = Node(5)
