@@ -6,3 +6,4 @@ class Node :
 
 root = Node(1)
 root.left = Node(3)
+root.right = Node(5)
