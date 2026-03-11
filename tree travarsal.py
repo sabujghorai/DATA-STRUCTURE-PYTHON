@@ -7,7 +7,8 @@ class Node :
 def preOrder(root):
     if(root != None):
         print(root.data , end = " ")
-
+        preOrder(root.left)
+        preOrder(root.right)
 
 
 # Tree
