@@ -4,22 +4,22 @@ class Node :
         self.right = None
         self.data = value
         
-    def insert(root,value):
-        if (root == None):
-            return Node(value)
-        if (root.data == None):
-            return root
-        if(root.data > value):
-            root.right = insert(root.left,value)
-        else:
-            root.left = insert(root.right,value)
+def insert(root,value):
+    if (root == None):
+        return Node(value)
+    if (root.data == None):
         return root
+    if(root.data > value):
+        root.right = insert(root.left,value)
+    else:
+        root.left = insert(root.right,value)
+    return root
 
-    def Inorder(root,value):
-        if (root != None):
-            Inorder(root.left)
-            print(root.data, end = " ")
-            Inorder(root.right)
+def Inorder(root,value):
+    if (root != None):
+        Inorder(root.left)
+        print(root.data, end = " ")
+        Inorder(root.right)
 
 root = Node(20)
 root.left = Node(15)
