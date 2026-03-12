@@ -14,3 +14,10 @@ def insert(root,value):
     else:
         root.left = insert(root.right,value)
     return root
+
+def Inorder(root,value):
+    if (root != None):
+        Inorder(root.left)
+        print(root.data, end = " ")
+        Inorder(root.right)
+
