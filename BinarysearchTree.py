@@ -27,4 +27,5 @@ root = insert(root,30)
 root = insert(root,40)
 root = insert(root,12)
 root = insert(root,18)
-Inorder(root)
+root = insert(root,58)
+Inorder(root) # this inorder function arrange the element in increasing order
