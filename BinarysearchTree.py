@@ -24,3 +24,4 @@ def Inorder(root,value):
 root = Node(20)
 root.left = Node(15)
 root.right = Node(30)
+root.left.left = Node(12)
