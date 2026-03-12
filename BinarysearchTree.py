@@ -5,7 +5,12 @@ class Node :
         self.data = value
         
 def insert(root,value):
-    if (root != None):
+    if (root == None):
         return Node(value)
     if (root.data == None):
         return root
+    if(root.data > value):
+        insert(root.left,value)
+    else:
+        insert(root.right,value)
+         
