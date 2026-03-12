@@ -17,14 +17,15 @@ def insert(root,value):
 
 def searching(root,value):
     if (root == None):
-        print("Element not found..")
-    if (root.data == None):
-        print("Element found..")
+        print("Element not found..", end = "\n")
+        return
+    if (root.data == value):
+        print("Element found..",end = "\n")
+        return
     if(root.data > value):
         searching(root.left,value)
     else:
         searching(root.right,value) 
-
 
 def Inorder(root):
     if (root != None):
@@ -40,3 +41,6 @@ root = insert(root,12)
 root = insert(root,18)
 root = insert(root,58)
 Inorder(root) # this inorder function arrange the element in increasing order
+print("\n")
+searching(root,15)
+searching(root,33)
