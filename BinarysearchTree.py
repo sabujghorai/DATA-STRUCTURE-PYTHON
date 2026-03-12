@@ -21,3 +21,4 @@ def Inorder(root,value):
         print(root.data, end = " ")
         Inorder(root.right)
 
+root = Node(20)
