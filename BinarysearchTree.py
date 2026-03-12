@@ -12,5 +12,5 @@ def insert(root,value):
     if(root.data > value):
         root.right = insert(root.left,value)
     else:
-        insert(root.right,value)
+        root.left = insert(root.right,value)
          
