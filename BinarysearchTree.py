@@ -10,7 +10,7 @@ def insert(root,value):
     if (root.data == None):
         return root
     if(root.data > value):
-        insert(root.left,value)
+        root.right = insert(root.left,value)
     else:
         insert(root.right,value)
          
