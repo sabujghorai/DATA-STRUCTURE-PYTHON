@@ -13,4 +13,4 @@ def insert(root,value):
         root.right = insert(root.left,value)
     else:
         root.left = insert(root.right,value)
-         
+    return root
