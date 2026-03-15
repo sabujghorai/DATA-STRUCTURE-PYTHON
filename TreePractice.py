@@ -37,3 +37,11 @@ def Height(root):
     right_Height = Height(root.right)
 
     return 1+max(left_Height,right_Height)
+
+root = Node(70)
+root.left = Node(40)
+root.right = Node(80)
+root.left.left = Node(30)
+root.left.right = Node(50)
+root.right.left = Node(75)
+root.right.right = Node(90)
