@@ -87,3 +87,12 @@ def sum_element(root):
         return 0
     return root.data+sum_element(root.left)+sum_element(root.right)
 
+root = Node(70)
+root.left = Node(40)
+root.right = Node(80)
+root.left.left = Node(30)
+root.left.right = Node(50)
+root.right.left = Node(75)
+root.right.right = Node(90)
+
+print("The sum of the element is:",sum_element(root))
