@@ -49,3 +49,10 @@ root.right.right = Node(90)
 print("The Height of the tree is :",Height(root))
 
 # Write a function that returns the number of leaf nodes (nodes with no children).
+
+class Node:
+    def __init__(self,value):
+        self.left = None
+        self.right = None
+        self.data = value
+        
