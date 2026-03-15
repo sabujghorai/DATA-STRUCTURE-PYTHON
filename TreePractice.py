@@ -12,3 +12,13 @@ def count_Node(root):
     count_right = count_Node(root.right)
 
     return 1+count_left+count_right
+
+root = Node(50)
+root.left = Node(40)
+root.right = Node(60)
+root.left.left = Node(30)
+root.left.right = Node(45)
+root.right.left = Node(55)
+root.right.right = Node(70)
+
+print("The Number of Node is :",count_Node(root))
