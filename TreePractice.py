@@ -22,3 +22,5 @@ root.right.left = Node(55)
 root.right.right = Node(70)
 
 print("The Number of Node is :",count_Node(root))
+
+# Find the Height of a Binary Tree
