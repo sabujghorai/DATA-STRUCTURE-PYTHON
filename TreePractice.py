@@ -24,3 +24,9 @@ root.right.right = Node(70)
 print("The Number of Node is :",count_Node(root))
 
 # Find the Height of a Binary Tree
+class Node:
+    def __init__(self,value):
+        self.left = None
+        self.right = None
+        self.data = value
+        
