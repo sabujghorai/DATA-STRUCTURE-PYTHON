@@ -81,3 +81,9 @@ class Node:
         self.left = None
         self.right = None
         self.data = value
+
+def sum_element(root):
+    if(root == None):
+        return 0
+    return root.data+sum_element(root.left)+sum_element(root.right)
+
