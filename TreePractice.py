@@ -55,4 +55,8 @@ class Node:
         self.left = None
         self.right = None
         self.data = value
-        
+
+def Leaf_count(root):
+    if(root.left == None and root.right == None):
+        return 1
+    
