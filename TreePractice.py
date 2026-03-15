@@ -75,3 +75,9 @@
 # print("Total leaf is :",Leaf_count(root))
 
 # Write a function that returns the sum of all elements in a binary tree.
+
+class Node:
+    def __init__(self,value):
+        self.left = None
+        self.right = None
+        self.data = value
