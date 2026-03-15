@@ -29,4 +29,11 @@ class Node:
         self.left = None
         self.right = None
         self.data = value
-        
+
+def Height(root):
+    if(root == None):
+        return 0
+    left_Height = Height(root.left)
+    right_Height = Height(root.right)
+
+    return 1+max(left_Height,right_Height)
