@@ -45,3 +45,5 @@ root.left.left = Node(30)
 root.left.right = Node(50)
 root.right.left = Node(75)
 root.right.right = Node(90)
+
+print("The Height of the tree is :",Height(root))
