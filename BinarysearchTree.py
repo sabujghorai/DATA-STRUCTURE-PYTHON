@@ -41,6 +41,6 @@ root = insert(root,12)
 root = insert(root,18)
 root = insert(root,58)
 Inorder(root) # this inorder function arrange the element in increasing order
-# print("\n")
+print("\n")
 searching(root,15)
 searching(root,33)
