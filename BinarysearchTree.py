@@ -25,7 +25,12 @@ def searching(root,value):
     if(root.data > value):
         searching(root.left,value)
     else:
-        searching(root.right,value) 
+        searching(root.right,value)
+
+def delete(root,value):
+    if(root == None):
+        return root
+     
 
 def Inorder(root):
     if (root != None):
