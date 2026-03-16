@@ -30,7 +30,8 @@ def searching(root,value):
 def delete(root,value):
     if(root == None):
         return root
-     
+    if(root.data > value):
+        delete(root.left , value)
 
 def Inorder(root):
     if (root != None):
