@@ -26,6 +26,11 @@ def searching(root,value):
         searching(root.left,value)
     else:
         searching(root.right,value)
+def get_successor(root):
+    root = root.right
+    while(root != None and root.left != None):
+        root = root.left
+    return root
 
 def delete(root,value):
     if(root == None):
