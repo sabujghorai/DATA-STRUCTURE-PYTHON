@@ -40,6 +40,7 @@ def delete(root,value):
             return root.right
         if(root.right == None):
             return root.left
+        
 def Inorder(root):
     if (root != None):
         Inorder(root.left)
