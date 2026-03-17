@@ -38,7 +38,8 @@ def delete(root,value):
     else:
         if (root.left == None):
             return root.right
-
+        if(root.right == None):
+            return root.left
 def Inorder(root):
     if (root != None):
         Inorder(root.left)
