@@ -52,7 +52,7 @@ def delete(root,value):
 
 def Inorder(root):
     if (root != None):
-        Inorder(root.left)
+        Inorder(root.left) 
         print(root.data, end = " ")
         Inorder(root.right)
 
@@ -67,4 +67,3 @@ Inorder(root) # this inorder function arrange the element in increasing order
 print("\n")
 searching(root,15)
 searching(root,33)
-delete(root,30)
