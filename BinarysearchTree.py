@@ -48,8 +48,8 @@ def delete(root,value):
         else:
             succ = get_successor(root)
             root.data = succ.data
-            delete(succ.data)
-            
+            root.right = delete(succ.data)
+
 def Inorder(root):
     if (root != None):
         Inorder(root.left)
