@@ -48,7 +48,7 @@ def delete(root,value):
         else:
             succ = get_successor(root)
             root.data = succ.data
-            root.right = delete(succ.data)
+            root.right = delete(root.right,succ.data)
 
 def Inorder(root):
     if (root != None):
@@ -67,3 +67,4 @@ Inorder(root) # this inorder function arrange the element in increasing order
 print("\n")
 searching(root,15)
 searching(root,33)
+delete(root,30)
