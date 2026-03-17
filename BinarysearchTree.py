@@ -35,6 +35,10 @@ def delete(root,value):
     if(root.data < value):
         delete(root.right , value)
 
+    else:
+        if (root.left == None):
+            return root.right
+
 def Inorder(root):
     if (root != None):
         Inorder(root.left)
