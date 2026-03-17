@@ -45,7 +45,11 @@ def delete(root,value):
             return root.right
         if(root.right == None):
             return root.left
-        
+        else:
+            succ = get_successor(root)
+            root.data = succ.data
+            delete(succ.data)
+            
 def Inorder(root):
     if (root != None):
         Inorder(root.left)
