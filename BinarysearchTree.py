@@ -36,9 +36,9 @@ def delete(root,value):
     if(root == None):
         return root
     if(root.data > value):
-        delete(root.left , value)
-    if(root.data < value):
-        delete(root.right , value)
+        root.left = delete(root.left , value)
+    elif(root.data < value):
+        root.right = delete(root.right , value)
 
     else:
         if (root.left == None):
@@ -66,4 +66,6 @@ root = insert(root,18)
 root = insert(root,58)
 Inorder(root) # this inorder function arrange the element in increasing order
 print("\n")
- 
+delete(root,12)
+print("\n")
+Inorder(root)
