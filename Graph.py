@@ -13,3 +13,13 @@ class Graph:
     def print_graph(self):
         for row in self.matrix:
             print(' '.join(map(str,row)))
+
+G = Graph(5)
+G.add_edge(0,2)
+G.add_edge(0,1)
+G.add_edge(1,3)
+G.add_edge(2,3)
+G.add_edge(3,4)
+G.add_edge(2,4)
+
+G.print()
