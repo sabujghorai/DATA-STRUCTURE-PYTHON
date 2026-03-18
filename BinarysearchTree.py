@@ -13,7 +13,6 @@ def insert(root, value):
         root.left = insert(root.left, value)
     else:
         root.right = insert(root.right, value)
-
     return root
 
 
