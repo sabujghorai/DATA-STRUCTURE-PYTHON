@@ -9,4 +9,7 @@ class Graph:
             self.matrix[destination][source] = 1
         else:
             print("The Edge you have entered is invalid..")
-    
+
+    def print_graph(self):
+        for row in self.matrix:
+            print(' '.join(map(str,row)))
