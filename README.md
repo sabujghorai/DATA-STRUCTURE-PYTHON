@@ -45,7 +45,7 @@
 | Day 41 | ✅ Completed |
 | Day 42 | ✅ Completed |
 | Day 43 | ✅ Completed |
-| Day 4 | 🚀 In Progress |
-| Day 5 | ⏳ Upcoming |
+| Day 44 | 🚀 In Progress |
+| Day 45 | ⏳ Upcoming |
 | ... | ... |
 | Day 180 | ⏳ Goal |
