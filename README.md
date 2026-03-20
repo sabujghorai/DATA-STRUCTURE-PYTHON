@@ -1,4 +1,5 @@
 ## 📈 180 Days Progress Tracker
+`[██████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 24%`
 
 |  Day's |    Status    |
 |--------|--------------|
@@ -48,3 +49,4 @@
 | Day 44 | 🚀 In Progress |
 | Day 45 | ⏳ Upcoming |
 | Day 180 | ⏳ Goal |
+**Progress: 43 / 180 Days Completed**
