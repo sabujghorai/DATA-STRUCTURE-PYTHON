@@ -50,4 +50,3 @@
 | Day 45 | ⏳ Upcoming |
 | Day 180 | ⏳ Goal |
 **Progress: 43 / 180 Days Completed**
-
