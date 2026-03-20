@@ -5,3 +5,8 @@ class Graph:
     def add_vertex(self,vertex):
         if vertex not in self.adjacencyList:
             self.adjacencyList[vertex] = []
+        
+
+    def addEdges(self,source,destination):
+        self.add_vertex(source)
+        self.add_vertex(destination)
