@@ -13,3 +13,8 @@ class Graph:
 
         self.adjacencyList[source].append(destination)
         self.adjacencyList[destination].append(source)
+    
+    def printgraph(self):
+        for vertex in self.adjacencyList:
+            print(vertex, " --> " ,self.adjacencyList[vertex],end="\n")
+            
