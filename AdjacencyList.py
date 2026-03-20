@@ -20,3 +20,9 @@ class Graph:
 
 G = Graph()
 G.addEdges(1,2)
+G.addEdges(2,3)
+G.addEdges(3,4)
+G.addEdges(1,4)
+G.addEdges(2,4)
+G.addEdges(3,5)
+G.addEdges(4,5)
