@@ -26,3 +26,5 @@ G.addEdges(1,4)
 G.addEdges(2,4)
 G.addEdges(3,5)
 G.addEdges(4,5)
+
+G.printgraph()
