@@ -17,4 +17,6 @@ class Graph:
     def printgraph(self):
         for vertex in self.adjacencyList:
             print(vertex, " --> " ,self.adjacencyList[vertex],end="\n")
-            
+
+G = Graph()
+G.addEdges(1,2)
