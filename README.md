@@ -48,3 +48,6 @@
 | Day 44 | 🚀 In Progress |
 | Day 45 | ⏳ Upcoming |
 | Day 180 | ⏳ Goal |
+## 📊 Progress
+
+**Progress: 43 / 180 Days Completed**
