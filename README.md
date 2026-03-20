@@ -1,16 +1,16 @@
 ## 📈 180 Days Progress Tracker
 
-| Day | Status |
-|-----|--------|
-| Day 1 | ✅ Completed |
-| Day 2 | ✅ Completed |
-| Day 3 | ✅ Completed |
-| Day 4 | ✅ Completed |
-| Day 5 | ✅ Completed |
-| Day 6 | ✅ Completed |
-| Day 7 | ✅ Completed |
-| Day 8 | ✅ Completed |
-| Day 9 | ✅ Completed |
+|  Day's |    Status    |
+|--------|--------------|
+| Day  1 | ✅ Completed |
+| Day  2 | ✅ Completed |
+| Day  3 | ✅ Completed |
+| Day  4 | ✅ Completed |
+| Day  5 | ✅ Completed |
+| Day  6 | ✅ Completed |
+| Day  7 | ✅ Completed |
+| Day  8 | ✅ Completed |
+| Day  9 | ✅ Completed |
 | Day 10 | ✅ Completed |
 | Day 11 | ✅ Completed |
 | Day 12 | ✅ Completed |
@@ -47,5 +47,4 @@
 | Day 43 | ✅ Completed |
 | Day 44 | 🚀 In Progress |
 | Day 45 | ⏳ Upcoming |
-| ... | ... |
 | Day 180 | ⏳ Goal |
