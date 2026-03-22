@@ -9,3 +9,7 @@ class Graph :
             self.matrix[destination][source]
         else:
             print("Invalid Edge..")
+
+    def DFS(self,source):
+        visited = [False]*self.size
+        stack = [source]
