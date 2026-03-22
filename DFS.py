@@ -13,3 +13,9 @@ class Graph :
     def DFS(self,source):
         visited = [False]*self.size
         stack = [source]
+
+        while(stack):
+            v = stack.pop
+            if(visited[v]==False):
+                print(v,end = " -> ")
+                visited[v] =True
