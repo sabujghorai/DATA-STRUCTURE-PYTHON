@@ -7,3 +7,5 @@ class Graph :
         if(0<=source<self.size and 0<=destination<self.size):
             self.matrix[source][destination]
             self.matrix[destination][source]
+        else:
+            print("Invalid Edge..")
