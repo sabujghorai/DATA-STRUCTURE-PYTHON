@@ -5,8 +5,8 @@ class Graph :
 
     def add_edge(self,source,destination):
         if(0<=source<self.size and 0<=destination<self.size):
-            self.matrix[source][destination]
-            self.matrix[destination][source]
+            self.matrix[source][destination] = 1
+            self.matrix[destination][source] = 1
         else:
             print("Invalid Edge..")
 
@@ -14,15 +14,15 @@ class Graph :
         visited = [False]*self.size
         stack = [source]
 
-        while(stack):
+        while(len(stack) > 0):
             v = stack.pop()
             if(visited[v]==False):
                 print(v,end = " -> ")
                 visited[v] =True
                 
-        for i in range(self.size):
-            if self.matrix[v][i] == 1 and visited[i] == False :
-                stack.append(i)
+            for i in range(self.size):
+                if self.matrix[v][i] == 1 and visited[i] == False :
+                    stack.append(i)
 
 G = Graph(6)
 G.add_edge(0,1)
