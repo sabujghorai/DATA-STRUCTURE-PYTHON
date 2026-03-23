@@ -14,13 +14,13 @@ class Graph :
         visited = [False]*self.size
         stack = [source]
 
-        while(len(stack) > 0):
+        while(stack):
             v = stack.pop()
             if(visited[v]==False):
                 print(v,end = " -> ")
                 visited[v] =True
                 
-        for i in (self.size-1):
+        for i in range(self.size):
             if self.matrix[v][i] == 1 and visited[i] == False :
                 stack.append(i)
 
@@ -32,3 +32,4 @@ G.add_edge(2,4)
 G.add_edge(3,5)
 G.add_edge(4,5)
 
+G.DFS(0)
