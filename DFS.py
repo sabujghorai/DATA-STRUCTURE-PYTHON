@@ -15,7 +15,7 @@ class Graph :
         stack = [source]
 
         while(len(stack) > 0):
-            v = stack.pop
+            v = stack.pop()
             if(visited[v]==False):
                 print(v,end = " -> ")
                 visited[v] =True
