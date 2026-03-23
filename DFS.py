@@ -23,5 +23,12 @@ class Graph :
         for i in (self.size-1):
             if self.matrix[v][i] == 1 and visited[i] == False :
                 stack.append(i)
-                
-G = Graph(0,1)
+
+G = Graph(6)
+G.add_edge(0,1)
+G.add_edge(0,2)
+G.add_edge(2,3)
+G.add_edge(2,4)
+G.add_edge(3,5)
+G.add_edge(4,5)
+
