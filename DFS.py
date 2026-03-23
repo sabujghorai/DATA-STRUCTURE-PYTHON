@@ -20,3 +20,6 @@ class Graph :
                 print(v,end = " -> ")
                 visited[v] =True
                 
+        for i in (self.size-1):
+            if self.matrix[v][i] == 1 and visited[i] == False :
+                stack.append(i)
