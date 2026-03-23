@@ -23,3 +23,5 @@ class Graph :
         for i in (self.size-1):
             if self.matrix[v][i] == 1 and visited[i] == False :
                 stack.append(i)
+                
+G = Graph(0,1)
