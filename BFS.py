@@ -20,3 +20,20 @@ class Graph :
         while(queue): # means queue is not equal to None
             v = queue.popleft
             print(v,end = " ")
+
+        for i in range(self.size):
+            if(self.matrix[v][i] == 1 and visited[1] == False):
+                visited[i] =True
+                queue.append(i)
+
+G = Graph(8)
+G.add_edge(0,1)
+G.add_edge(0,3)
+G.add_edge(1,3)
+G.add_edge(3,5)
+G.add_edge(3,4)
+G.add_edge(5,4)
+G.add_edge(4,6)
+G.add_edge(6,2)
+G.add_edge(6,7)
+G.BSF(0)
