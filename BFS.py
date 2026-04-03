@@ -7,8 +7,8 @@ class Graph :
     
     def add_edge(self,source,destination):
         if(0<=source<self.size and 0<=destination<self.size):
-            self.matrix = [source][destination] = 1
-            self.matrix = [destination][source] = 1
+            self.matrix[source][destination] = 1
+            self.matrix[destination][source] = 1
         else:
             print("Invalid edge")
     
