@@ -37,3 +37,4 @@ G.add_edge(4,6)
 G.add_edge(6,2)
 G.add_edge(6,7)
 G.BSF(0)
+
