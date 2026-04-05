@@ -1,3 +1,4 @@
+# Write a program to sort a list of integers in ascending order using bubble sort
 def BubbleSort(a):
     n = len(a)
 
@@ -9,3 +10,6 @@ def BubbleSort(a):
 a = [75,45,34,23,54,27,87,12,47,99]
 BubbleSort(a)
 print(a)
+
+
+# Modify bubble sort to sort the array in descending order.
