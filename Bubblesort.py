@@ -12,7 +12,7 @@ BubbleSort(a)
 print(a)
 
 
-# Modify bubble sort to sort the array in descending order.
+# Modify bubble sort to sort the array in descending order.also print the total number of swaps
 def Bubblesort(b):
     k = len(b)
 
@@ -24,3 +24,4 @@ def Bubblesort(b):
 b = [11,22,33,44,55,66,77]
 Bubblesort(b)
 print(b)
+print(len(b))
