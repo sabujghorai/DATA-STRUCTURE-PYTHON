@@ -42,3 +42,17 @@ c = [30,32,34,35,46,41,78,31,98]
 sorted_array,swap = BubbleSort_count(c)
 print("Sorted array is :",sorted_array)
 print("number of swap is :",swap)
+
+
+# Use bubble sort to sort a list of strings alphabetically.
+def BubbleSort(d):
+    n = len(d)
+
+    for i in range(n):
+        for j in range(0,n-1-i):
+            if(d[j] > d[j+1]):
+                d[j],d[j+1] = d[j+1],d[j]
+
+d = ["zoo","xmas","string","list","list","tuple","alpha","beta","camel"]
+BubbleSort(d)
+print(d)
