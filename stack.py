@@ -30,7 +30,6 @@ print(stk.pop()) # delete the top element and print it which is 30
 print(stk.peek()) # print the top element which is now 20
 
 
-
 class Stack :
     def __init__(self):
         self.st = []
