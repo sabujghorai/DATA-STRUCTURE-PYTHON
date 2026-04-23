@@ -31,7 +31,6 @@ print(stk.peek()) # print the top element which is now 20
 
 
 
-
 class Stack :
     def __init__(self):
         self.st = []
