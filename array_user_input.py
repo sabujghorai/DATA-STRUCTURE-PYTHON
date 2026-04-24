@@ -29,5 +29,4 @@ for x in arr:
     print(x,end=" ")
 print("\n")
 
-
 m = (int(input("Enter any one number of your given element :")))
