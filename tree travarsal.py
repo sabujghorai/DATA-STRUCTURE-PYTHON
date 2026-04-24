@@ -24,7 +24,6 @@ def postOrder(root):
         print(root.data , end = " ")
 
 
-
 # Tree
 root = Node(1)
 root.left = Node(3)
