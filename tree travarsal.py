@@ -10,7 +10,6 @@ def preOrder(root):
         preOrder(root.left)
         preOrder(root.right)
 
-
 def Inorder(root):
     if(root != None):
         Inorder(root.left)
