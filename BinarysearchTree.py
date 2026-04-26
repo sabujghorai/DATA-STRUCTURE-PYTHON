@@ -36,7 +36,6 @@ def get_successor(root):
         root = root.left
     return root
 
-
 def delete(root, value):
     if root is None:
         return root
