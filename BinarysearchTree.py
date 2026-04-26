@@ -15,7 +15,6 @@ def insert(root, value):
         root.right = insert(root.right, value)
     return root
 
-
 def searching(root, value):
     if root is None:
         print("Element not found..")
