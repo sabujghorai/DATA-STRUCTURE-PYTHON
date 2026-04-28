@@ -32,12 +32,12 @@ print("\n")
 from array import * # from array import all 
 val = array('i',[1,2,3,4,5,6,7,8,9,10])  # 'i' --> integer (usually 2 bytes)
 
-
 val.append(50) # at the element at the end
 val[2] = 100 # replace the second element with 100
 for i in range(0,len(val)):
     print(val[i],end=" ")
 print("\n")
+
 
 # make a copy of the old array and print the value 
 from array import *
