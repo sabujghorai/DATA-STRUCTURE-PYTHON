@@ -96,5 +96,3 @@ root.right.left = Node(75)
 root.right.right = Node(90)
 
 print("The sum of the element is:",sum_element(root))
-
-print("Hello world")
