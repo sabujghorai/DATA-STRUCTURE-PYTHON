@@ -146,7 +146,6 @@ obj.insertAtMid(40,20)
 obj.printLL()
 
 
-
 # New linked list for deleting the data
 class Node:
     def __init__(self, data):
