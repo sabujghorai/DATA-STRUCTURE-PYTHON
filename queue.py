@@ -17,6 +17,7 @@ class Queue :
         else:
             Queue()
 
+
 Q = Queue()
 Q.insert(int(input("Enter a number :")))
 Q.insert(int(input("Enter a number :")))
