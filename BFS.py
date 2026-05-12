@@ -25,7 +25,6 @@ class Graph :
                 if(self.matrix[v][i] == 1 and visited[i] == False):
                     visited[i] =True
                     queue.append(i)
-
 G = Graph(8)
 G.add_edge(0,1)
 G.add_edge(0,3)
