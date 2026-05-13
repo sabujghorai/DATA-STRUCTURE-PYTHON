@@ -23,12 +23,3 @@ def sum(a):
     return a + sum(a-1)
 k = int(input("Enter the term :"))
 print("The sum of all your n th term is :", sum(k))
-
-
-# Reversing the string 
-def reverse_string(s):
-    if len(s) == 0:
-        return s
-    return reverse_string(s[1:]) + s[0]
-
-print(reverse_string("ChatGPT"))
