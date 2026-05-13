@@ -23,5 +23,3 @@ def sum(a):
     return a + sum(a-1)
 k = int(input("Enter the term :"))
 print("The sum of all your n th term is :", sum(k))
-
-print("hello world")
