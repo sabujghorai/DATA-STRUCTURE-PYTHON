@@ -23,3 +23,13 @@ def sum(a):
     return a + sum(a-1)
 k = int(input("Enter the term :"))
 print("The sum of all your n th term is :", sum(k))
+
+
+def countdown(n):
+    if n == 0:
+        print("Done!")
+        return
+    print(n)
+    countdown(n - 1)
+
+countdown(5)
