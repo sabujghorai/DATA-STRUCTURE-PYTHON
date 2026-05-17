@@ -47,3 +47,28 @@ print(Stack)
 Stack.pop()
 Stack.pop()
 print(Stack)
+
+
+# Queue
+class Queue:
+
+    def __init__(self):
+        self.q = []
+
+    def enqueue(self,value):
+        self.q.append(value)
+
+    def dequeue(self):
+        return self.q.pop(0)
+
+    def peek(self):
+        return self.q[0]
+
+q = Queue()
+
+q.enqueue(10)
+q.enqueue(20)
+q.enqueue(30)
+
+print(q.dequeue())
+print(q.peek())
