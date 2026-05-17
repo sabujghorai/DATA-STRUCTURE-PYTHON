@@ -76,4 +76,6 @@ print(q.peek())
 
 # Recursion 
 
-# write a program to find the sum of n natural number
+# # write a program to find the sum of n natural number
+# def sum(a):
+#     if(a ==)
