@@ -75,3 +75,5 @@ print(q.peek())
 
 
 # Recursion 
+
+# write a program to find the sum of n natural number
