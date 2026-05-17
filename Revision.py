@@ -84,3 +84,11 @@ def sum(a):
 
 a = int(input("Enter the number of turms :"))
 print("The sum of your n number of term is :",sum(a))
+
+# Write a program using recursion to print the factorial of a number n take input from the user
+def factorial(b):
+    if(b == 0):
+        return 1
+    return b*(factorial(b-1))
+b = int(input("Enter the number you want to find factorial :"))
+print("The factorial of your number is : ", factorial(b))
