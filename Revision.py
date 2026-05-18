@@ -139,4 +139,9 @@ class SingleLL :
                 t1 = t1.next
             t1.next = temp 
 
-    
+    def PrintLL(self):
+        t1 = self.head
+        while t1 is not None:
+            print(t1.data)
+            t1 = t1.next
+
