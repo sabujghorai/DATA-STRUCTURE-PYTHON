@@ -179,4 +179,27 @@ class DoubleLL :
         t.next = temp
         temp.prev = t
 
+    def InsertAtBegeining(self,value):
+        temp = Node(value)
+        if(self.head == None):
+            self.head = temp
+            return
+        temp.next = self.head
+        self.head.prev = temp
+        self.head = temp
+
+    def InsertAtMiddle(self,value,x):
+        t = self.head
+
+        while(t.next != None):
+            if(t.data == x):
+                break
+            else:
+                t = t.next
+        temp = Node(value)
+        temp.next = t.next
+        t.next.prev = next
+        t.next = temp
+        temp.prev = t
+
     
