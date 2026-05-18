@@ -128,4 +128,15 @@ class SingleLL :
     def __init__(self):
         self.head = None
 
+    def insertAtEnd(self,value):
+        temp = Node(value)
+
+        if self.head is None:
+            self.head = temp
+        else:
+            t1 = self.head
+            while t1.next is not None:
+                t1 = t1.next
+            t1.next = temp 
+
     
