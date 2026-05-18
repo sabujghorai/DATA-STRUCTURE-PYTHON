@@ -229,3 +229,14 @@ class DoubleLL :
             t = t.next
         print(t.data)
 
+obj  = DoubleLL()
+obj.insertAtTheEnd(10)
+obj.insertAtTheEnd(20)
+obj.insertAtTheEnd(30)
+obj.InsertAtBegeining(5)
+obj.InsertAtMiddle(15,10) # insert 15 after 10
+obj.InsertAtMiddle(25,20) # insert 25 after 20
+obj.deletionDLL(5)
+obj.deletionDLL(15)
+# obj.deletionDLL(30)
+obj.printDLL()
