@@ -155,7 +155,6 @@ obj.PrintLL()
 
 
 # Double linked list
-
 class Node :
     def __init__(self,value = None):
         self.data = value
@@ -222,3 +221,11 @@ class DoubleLL :
                 t = t.next # upto this
         if(t.data == value):
             t.prev.next = None
+
+    def printDLL(self):
+        t = self.head
+        while(t.next != None):
+            print(t.data, end= " <--> ")
+            t = t.next
+        print(t.data)
+
