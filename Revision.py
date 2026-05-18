@@ -202,4 +202,23 @@ class DoubleLL :
         t.next = temp
         temp.prev = t
 
-    
+    def deletionDLL(self,value): # the method for deletion the element
+        if(self.head == None):
+            print("The linked list is empty ")
+            return
+        
+        t = self.head
+        if(t.data == value): # code for deletion at the begeinning
+            self.head = t.next
+            self.head.prev = None #upto this
+            return
+        
+        while(t.next != None): # code for deletion at the middle
+            if(t.data == value):
+                t.prev.next = t.next
+                t.next.prev = t.prev
+                return
+            else:
+                t = t.next # upto this
+        if(t.data == value):
+            t.prev.next = None
