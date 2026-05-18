@@ -145,3 +145,10 @@ class SingleLL :
             print(t1.data)
             t1 = t1.next
 
+obj = SingleLL()
+obj.insertAtEnd(10)
+obj.insertAtEnd(20)
+obj.insertAtEnd(30)
+obj.insertAtEnd(40)
+obj.insertAtEnd(50)
+obj.PrintLL()
