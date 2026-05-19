@@ -252,3 +252,10 @@ def preOrder(root):
         print(root.data , end = " ")
         preOrder(root.left)
         preOrder(root.right)
+
+def Inorder(root):
+    if(root != None):
+        Inorder(root.left)
+        print(root.data , end = " ")
+        Inorder(root.right)
+
