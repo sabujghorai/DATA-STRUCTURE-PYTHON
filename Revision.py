@@ -246,3 +246,9 @@ class Node :
         self.left = None
         self.right = None
         self.data = value
+
+def preOrder(root):
+    if(root != None):
+        print(root.data , end = " ")
+        preOrder(root.left)
+        preOrder(root.right)
