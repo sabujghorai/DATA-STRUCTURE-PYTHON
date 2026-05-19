@@ -240,3 +240,9 @@ obj.deletionDLL(5)
 obj.deletionDLL(15)
 obj.deletionDLL(30)
 obj.printDLL()
+
+class Node :
+    def __init__(self,value):
+        self.left = None
+        self.right = None
+        self.data = value
