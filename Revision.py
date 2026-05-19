@@ -259,3 +259,8 @@ def Inorder(root):
         print(root.data , end = " ")
         Inorder(root.right)
 
+def postOrder(root):
+    if(root != None):
+        postOrder(root.left)
+        postOrder(root.right)
+        print(root.data , end = " ")
