@@ -322,3 +322,6 @@ def BubbleSort(a):
             if(a[j]>a[j+1]):
                 a[j],a[j+1] = a[j+1],a[j]
 
+a = [3,4,5,2,9,7,6,12]
+BubbleSort(a)
+print(a)
