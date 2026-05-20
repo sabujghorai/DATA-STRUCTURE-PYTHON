@@ -331,4 +331,7 @@ print(a)
 def Bubblesort(b):
     k = len(b)
 
-   
+    for i in range(k):
+        for j in range(0,k-1-i):
+            if(b[j] < b[j+1]):
+                b[j],b[j+1] = b[j+1],b[j]
