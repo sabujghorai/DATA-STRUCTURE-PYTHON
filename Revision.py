@@ -310,3 +310,18 @@ G.add_edge(3,4)
 G.add_edge(2,4)
 
 G.print_graph()
+
+# Bubble sort
+
+# Write a program to sort a list of integers in ascending order using bubble sort
+def BubbleSort(a):
+    n = len(a)
+
+    for i in range(n):
+        for j in range(0,n-1-i):
+            if(a[j]>a[j+1]):
+                a[j],a[j+1] = a[j+1],a[j]
+
+a = [3,4,5,2,9,7,6,12]
+BubbleSort(a)
+print(a)
