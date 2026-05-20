@@ -325,3 +325,10 @@ def BubbleSort(a):
 a = [3,4,5,2,9,7,6,12]
 BubbleSort(a)
 print(a)
+
+
+# Modify bubble sort to sort the array in descending order.
+def Bubblesort(b):
+    k = len(b)
+
+   
