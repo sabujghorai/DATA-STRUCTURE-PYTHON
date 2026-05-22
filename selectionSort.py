@@ -56,3 +56,9 @@ print(arr)
 # sort the elements in ascending order and count total number of swap of arr = [4, 2, 8, 1]
 def countSwap(arr):
     n = arr
+
+    for i in range(n):
+        min = i
+        for j in range(i,n):
+            if(arr[min]<arr[i]):
+                min = j
