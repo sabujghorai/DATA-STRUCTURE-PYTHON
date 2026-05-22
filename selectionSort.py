@@ -11,3 +11,6 @@ def selectionSort(a):
 a = [65,70,72,56,15,67,89]
 selectionSort(a)
 print(a)
+
+
+# sort the elements arr = [64,25,12,22,11] in ascending order
