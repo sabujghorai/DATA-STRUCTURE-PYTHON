@@ -27,3 +27,15 @@ def ascendingOrderSort(arr):
 arr = [64,25,12,22,11]
 ascendingOrderSort(arr)
 print(arr)
+
+
+# sort the elements arr = [5, 9, 1, 3, 7] in descending order
+def descendingOrderSort(arr):
+    n = len(arr)
+
+    for i in range(n):
+        min = i
+        for j in range(i,n):
+            if(arr[min]<arr[j]):
+                min = j
+                
