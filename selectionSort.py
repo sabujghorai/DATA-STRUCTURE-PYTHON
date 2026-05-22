@@ -54,22 +54,25 @@ print(arr)
 
 
 # sort the elements in ascending order and count total number of swap of arr = [4, 2, 8, 1]
-def countSwap(value):
-    n = len(value)
+def selectionSort(arr):
+    swaps = 0
+    n = len(arr)
 
     for i in range(n):
         minimum = i
 
-        for j in range(i, n):
-
-            if value[minimum] > value[j]:
+        for j in range(i + 1, n):
+            if arr[j] < arr[minimum]:
                 minimum = j
 
-        value[i], value[minimum] = value[minimum], value[i]
+        if minimum != i:
+            arr[i], arr[minimum] = arr[minimum], arr[i]
+            swaps += 1
+
+    print("Sorted Array :", arr)
+    print("Total Swaps :", swaps)
 
 
-value = [4, 2, 8, 1]
+arr = [4, 2, 8, 1]
 
-countSwap(value)
-
-print(value)
+selectionSort(arr)
