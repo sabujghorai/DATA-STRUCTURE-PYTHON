@@ -22,4 +22,5 @@ def ascendingOrderSort(a):
         for j in range(i,n):
             if(a[min]>a[j]):
                 min  = j
-                
+        a[j],a[min] = a[min],a[j]
+        
