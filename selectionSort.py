@@ -14,13 +14,16 @@ print(a)
 
 
 # sort the elements arr = [64,25,12,22,11] in ascending order
-def ascendingOrderSort(a):
-    n = len(a)
+def ascendingOrderSort(arr):
+    n = len(arr)
 
     for i in range(n):
         min = i
         for j in range(i,n):
-            if(a[min]>a[j]):
+            if(arr[min]>arr[j]):
                 min  = j
-        a[j],a[min] = a[min],a[j]
-        
+        arr[i],arr[min] = arr[min],arr[i]
+
+arr = [64,25,12,22,11]
+ascendingOrderSort(arr)
+print(arr)
