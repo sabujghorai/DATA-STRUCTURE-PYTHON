@@ -40,8 +40,13 @@ def descendingOrderSort(arr):
                 min = j
         arr[min],arr[i] = arr[i],arr[min]
 
-arr = [5, 9, 1, 3, 7]
+
+arr = []
+
+n = int(input("Wnter how many numbers you want to sort :"))
+for k in range(n):
+    elements = int(input("Enter the elements :"))
+    arr.append(elements)
+
 descendingOrderSort(arr)
 print(arr)
-
-
