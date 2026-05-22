@@ -53,4 +53,6 @@ print(arr)
 
 
 
-# count tota number of swap of arr = [4, 2, 8, 1]
+# sort the elements in ascending order and count total number of swap of arr = [4, 2, 8, 1]
+def countSwap(arr):
+    n = arr
