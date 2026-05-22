@@ -339,3 +339,27 @@ def Bubblesort(b):
 b = [11,22,33,44,55,66,77]
 Bubblesort(b)
 print(b)
+
+# sort the elements in ascending order and count total number of swap of arr = [4, 2, 8, 1]
+def selectionSort(arr):
+    swaps = 0
+    n = len(arr)
+
+    for i in range(n):
+        minimum = i
+
+        for j in range(i + 1, n):
+            if arr[j] < arr[minimum]:
+                minimum = j
+
+        if minimum != i:
+            arr[i], arr[minimum] = arr[minimum], arr[i]
+            swaps += 1
+
+    print("Sorted Array :", arr)
+    print("Total Swaps :", swaps)
+
+
+arr = [4, 2, 8, 1]
+
+selectionSort(arr)
