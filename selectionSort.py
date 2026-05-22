@@ -29,7 +29,7 @@ ascendingOrderSort(arr)
 print(arr)
 
 
-# sort the elements arr = [5, 9, 1, 3, 7] in descending order
+# sort the elements taking user input in descending order
 def descendingOrderSort(arr):
     n = len(arr)
 
@@ -53,3 +53,4 @@ print(arr)
 
 
 
+# count tota number of swap of arr = [4, 2, 8, 1]
