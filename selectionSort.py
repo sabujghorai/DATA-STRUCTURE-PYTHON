@@ -38,4 +38,8 @@ def descendingOrderSort(arr):
         for j in range(i,n):
             if(arr[min]<arr[j]):
                 min = j
-                
+        arr[min],arr[i] = arr[i],arr[min]
+
+arr = [5, 9, 1, 3, 7]
+descendingOrderSort(arr)
+print(arr)
