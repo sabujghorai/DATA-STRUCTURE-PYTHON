@@ -7,4 +7,7 @@ def selectionSort(a):
             if(a[min]>a[j]):
                 min = j
         a[i],a[min] = a[min],a[i]
-        
+    
+a = [65,70,72,56,15,67,89]
+selectionSort(a)
+print(a)
