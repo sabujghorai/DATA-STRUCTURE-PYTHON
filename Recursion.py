@@ -24,7 +24,6 @@ def sum(a):
 k = int(input("Enter the term :"))
 print("The sum of all your n th term is :", sum(k))
 
-
 def countdown(n):
     if n == 0:
         print("Done!")
