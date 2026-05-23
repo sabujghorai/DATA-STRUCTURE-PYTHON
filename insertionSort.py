@@ -16,3 +16,7 @@ insertionSort(arr)
 print("Sorted array:", arr)
 
 # descending order version 
+def insertionSortDescending(arr):
+    n = len(arr)
+
+    
