@@ -14,3 +14,5 @@ def insertionSort(arr):
 arr = [8, 4, 2, 9, 1, 5]
 insertionSort(arr)
 print("Sorted array:", arr)
+
+# descending order version 
