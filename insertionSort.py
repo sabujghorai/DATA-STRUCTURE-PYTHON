@@ -10,7 +10,6 @@ def insertionSort(arr):
             j -= 1
         arr[j + 1] = key
 
-
 arr = [8, 4, 2, 9, 1, 5]
 insertionSort(arr)
 print("Sorted array:", arr)
