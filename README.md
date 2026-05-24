@@ -51,6 +51,10 @@
 | Day 46 | ✅ Completed |
 | Day 47 | ✅ Completed |
 | Day 48 | ✅ Completed |
-| Day 49 | ⏳ Upcoming |
+| Day 49 | ✅ Completed |
+| Day 50 | ✅ Completed |
+| Day 51 | ✅ Completed |
+| Day 52 | ✅ Completed |
+| Day 53 | ⏳ Upcoming |
 | Day 180 | ⏳ Goal |
 **Progress: 43 / 180 Days Completed**
