@@ -7,3 +7,6 @@ def InsertionSort(a):
 
         while (j <= 0 and key < a[j]):
             a[j+1] = a[j]
+            j = j-1
+
+        a[j+1] = key
