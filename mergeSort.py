@@ -1,8 +1,8 @@
 def Divide(arr,l,r):
     if(l < r):
         m = (l+r) // 2
-        Divide(l , m)#   ------------|
-        Divide(m+1 , r)  # ----------|----|
+        Divide(arr , l , m)#   ------------|
+        Divide(arr , m+1 , r)  # ----------|----|
         Merge(arr , l , m , r)  #    |    |
                                #     |    |
 def Merge(arr , l , m , r):    #     |    |
@@ -16,15 +16,16 @@ def Merge(arr , l , m , r):    #     |    |
         L[i] = arr[l+i] # starts from left array and copy from original array(s1)
 
     for j in range(s2): # runs from 0 to s2
-        R[0] = arr[m+1+j] # starts from left array(m+1) and ends copy from original array(s2)
+        R[j] = arr[m+1+j] # starts from left array(m+1) and ends copy from original array(s2)
 
     i = j = 0
     k = l
 
     while( i < s1 and j < s2):
-        if(l[i] < R[j]):
-            arr[k] = R[j]
-        
+        if(L[i] < R[j]):
+            arr[k] = L[i]
+            i = i+1
+            k = k+1
         else:
             arr[k] = R[j]
             j = j+1
@@ -39,3 +40,7 @@ def Merge(arr , l , m , r):    #     |    |
         arr[k] = R[j]
         j = j+1
         k = k+1
+
+arr = [24,64,11,10,45,34,67,86,23,16]
+Divide(arr , 0 , len(arr)-1)
+print(arr)
