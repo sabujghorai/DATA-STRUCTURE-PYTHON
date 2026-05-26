@@ -1,2 +1,3 @@
-def mergesort(a):
-    n = len(a)
+def mergesort(arr,l,r):
+    if(l < r):
+        m = (l+r) // 2
