@@ -1,8 +1,8 @@
 def Divide(arr,l,r):
     if(l < r):
         m = (l+r) // 2
-        Divide(arr , l , m)#   ------------|
-        Divide(arr , m+1 , r)  # ----------|----|
+        Divide(arr , l , m)#   -----------|
+        Divide(arr , m+1 , r)  # ----|----|
         Merge(arr , l , m , r)  #    |    |
                                #     |    |
 def Merge(arr , l , m , r):    #     |    |
