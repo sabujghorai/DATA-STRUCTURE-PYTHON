@@ -32,7 +32,10 @@ def Merge(arr , l , m , r):    #     |    |
 
     while(i < s1):
         arr[k] = L[i]
-        j = i+1
+        i = i+1
         k = k+1
 
-    
+    while(j < s2):
+        arr[k] = R[j]
+        j = j+1
+        k = k+1
