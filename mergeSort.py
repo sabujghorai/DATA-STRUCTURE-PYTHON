@@ -21,4 +21,7 @@ def Merge(arr , l , m , r):    #     |    |
     i = j = 0
     k = l
 
-    
+    while( i < s1 and j < s2):
+        if(l[i] < R[j]):
+            arr[k] = R[j]
+             
