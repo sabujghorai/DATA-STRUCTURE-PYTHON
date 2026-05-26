@@ -38,4 +38,5 @@ def Merge(arr , l , m , r):    #     |    |
 
     while(j < s2):
         arr[k] = R[j]
-     
+        j = j+1
+        k = k+1
