@@ -30,17 +30,3 @@ def Merge(arr , l , m , r):    #     |    |
             arr[k] = R[j]
             j = j+1
             k = k+1
-
-    while(i < s1):
-        arr[k] = L[i]
-        i = i+1
-        k = k+1
-
-    while(j < s2):
-        arr[k] = R[j]
-        j = j+1
-        k = k+1
-
-arr = [24,64,11,10,45,34,67,86,23,16]
-Divide(arr , 0 , len(arr)-1)
-print(arr)
