@@ -11,3 +11,14 @@ def Merge(arr , l , m , r):    #     |    |
 
     L = [0] * s1
     R = [0] * s2
+
+    for i in range(s1): # runs from 0 to s1 size
+        L[i] = arr[l+i] # starts from left array and copy from original array(s1)
+
+    for j in range(s2): # runs from 0 to s2
+        R[0] = arr[m+1+j] # starts from left array(m+1) and ends copy from original array(s2)
+
+    i = j = 0
+    k = l
+
+    
