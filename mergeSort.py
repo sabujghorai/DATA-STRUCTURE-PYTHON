@@ -44,3 +44,6 @@ def Merge(arr , l , m , r):    #     |    |
 arr = [24,64,11,10,45,34,67,86,23,16]
 Divide(arr , 0 , len(arr)-1)
 print(arr)
+
+
+# Sort the array using Merge Sort. 
