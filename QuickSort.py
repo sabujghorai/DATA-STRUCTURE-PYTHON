@@ -3,7 +3,7 @@ def QuickSort(arr,l,r):
         p = partition(arr,l,r)
 
     QuickSort(arr,l,p-1)
-    QuickSort(arr,l,p+1)
+    QuickSort(arr,p+1,r)
 
 
 def partition(arr,l,r):
