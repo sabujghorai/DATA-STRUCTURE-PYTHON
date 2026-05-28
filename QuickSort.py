@@ -18,3 +18,7 @@ def partition(arr,l,r):
 
         while(l < r and arr[j] > pivot):
             j = j-1
+
+        if (i < j):
+            arr[i],arr[j] = arr[j],arr[i]
+            
