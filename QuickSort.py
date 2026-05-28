@@ -23,3 +23,6 @@ def partition(arr,l,r):
             arr[i],arr[j] = arr[j],arr[i]
         else:
             break
+    
+    arr[l],arr[j] = arr[j],arr[l]
+    return j
