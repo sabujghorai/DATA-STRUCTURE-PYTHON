@@ -8,3 +8,6 @@ def QuickSort(arr,l,r):
 
 def partition(arr,l,r):
     pivot = arr[l]
+
+    i = l+1
+    j = r
