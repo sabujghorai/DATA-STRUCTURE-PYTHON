@@ -26,3 +26,7 @@ def partition(arr,l,r):
     
     arr[l],arr[j] = arr[j],arr[l]
     return j
+
+arr = [23,45,21,12,11,0,17]
+QuickSort(arr,0,len(arr)-1)
+print(arr)
