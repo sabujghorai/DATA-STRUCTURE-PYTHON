@@ -2,8 +2,8 @@ def QuickSort(arr,l,r):
     if (l < r):
         p = partition(arr,l,r)
 
-    QuickSort(arr,l,p-1)
-    QuickSort(arr,p+1,r)
+        QuickSort(arr,l,p-1)
+        QuickSort(arr,p+1,r)
 
 
 def partition(arr,l,r):
