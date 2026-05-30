@@ -358,7 +358,6 @@ def selectionSort(arr):
     print("Sorted Array :", arr)
     print("Total Swaps :", swaps)
 
-
 arr = [4, 2, 8, 1]
 
 selectionSort(arr)
