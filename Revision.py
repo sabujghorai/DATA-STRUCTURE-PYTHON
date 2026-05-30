@@ -94,7 +94,6 @@ b = int(input("Enter the number you want to find factorial :"))
 print("The factorial of your number is : ", factorial(b))
 
 
-
 # SingleLinked list 
 
 class Node:
