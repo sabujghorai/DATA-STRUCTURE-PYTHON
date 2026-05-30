@@ -52,7 +52,6 @@ descendingOrderSort(arr)
 print(arr)
 
 
-
 # sort the elements in ascending order and count total number of swap of arr = [4, 2, 8, 1]
 def selectionSort(arr):
     swaps = 0
