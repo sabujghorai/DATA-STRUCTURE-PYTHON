@@ -8,3 +8,5 @@ def find_min_max(arr ,start , end):
         else:
             return arr[end] , arr[start]
         
+        mid = (start+end) // 2
+        
