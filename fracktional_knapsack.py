@@ -19,4 +19,10 @@ def fractional_knapsack(item_weight , price , knapsack_weight):
 
         else:
             profit = profit + perKgPrice*knapsack_weight
-            
+
+    print("Total profit = " , profit)
+
+price = [24 , 35 , 36 ,40]
+item_weight = [3,7,6,4]
+knapsack_weight = 20
+fractional_knapsack(price,item_weight,knapsack_weight)
