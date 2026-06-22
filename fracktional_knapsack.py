@@ -10,4 +10,13 @@ def fractional_knapsack(item_weight , price , knapsack_weight):
             if(items[i][2] < items[j][2]):
                 items[i],items[j] = items[j],items[i]
 
-    
+    profit = 0.0
+
+    for price , item_weight , perKgPrice in items:
+        if(knapsack_weight > item_weight):
+            knapsack_weight = knapsack_weight - item_weight
+            profit = profit + price
+
+        else:
+            profit = profit + perKgPrice*knapsack_weight
+            
