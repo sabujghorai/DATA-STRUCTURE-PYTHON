@@ -6,3 +6,7 @@ def knapsack_recursive(weights , values , knapsack_weight , items): # n is the i
         return knapsack_recursive(weights , values , knapsack_weight , items - 1)
     
     include = values[items - 1] + knapsack_recursive(weights , values , knapsack_weight - weights[items-1] , items - 1)
+
+    exclude = knapsack_recursive(weights , values , knapsack_weight , items - 1)
+
+    return max(include , exclude)
