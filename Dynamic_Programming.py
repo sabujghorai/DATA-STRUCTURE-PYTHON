@@ -2,3 +2,7 @@ def knapsack_recursive(weights , values , knapsack_weight , items): # n is the i
     if(items == 0 or knapsack_weight == 0):
         return 0
     
+    if weights[items-1] > knapsack_weight :
+        return knapsack_recursive(weights , values , knapsack_weight , items - 1)
+    
+    include = values[items - 1] + knapsack_recursive(weights , values , knapsack_weight - weights[items-1] , items - 1)
