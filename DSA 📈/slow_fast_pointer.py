@@ -29,5 +29,4 @@ n4.next = n5
 
 ll = Linkedlist()
 mid = ll.middleNode(n1)
-
 print("Middle Node:", mid.data)
