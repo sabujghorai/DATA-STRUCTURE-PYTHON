@@ -36,7 +36,6 @@ print(stk.pop()) # delete the top element and print it which is 40
 print(stk.pop()) # delete the top element and print it which is 30
 print(stk.peek()) # print the top element which is now 20
 
-
 Stack = []
 Stack.append(10)
 Stack.append(20)
