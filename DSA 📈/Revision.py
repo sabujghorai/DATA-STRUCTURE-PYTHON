@@ -239,7 +239,6 @@ obj.deletionDLL(15)
 
 obj.printDLL()
 
-
 # Tree
 
 class Node :
