@@ -91,5 +91,4 @@ def print_and_length(head):
 head = Node(1)
 head.next = Node(2)
 head.next.next = Node(3)
-
 print_and_length(head)
