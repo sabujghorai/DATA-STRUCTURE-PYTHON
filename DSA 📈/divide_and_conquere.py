@@ -1,7 +1,6 @@
 def find_max(arr, left, right):
     if left == right:
         return arr[left]
-
     mid = (left + right) // 2
 
     left_max = find_max(arr, left, mid)
