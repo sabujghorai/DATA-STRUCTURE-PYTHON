@@ -27,7 +27,6 @@ arr = [64,25,12,22,11]
 ascendingOrderSort(arr)
 print(arr)
 
-
 # sort the elements taking user input in descending order
 def descendingOrderSort(arr):
     n = len(arr)
