@@ -69,7 +69,6 @@ curr.next = curr.next.next # delete the 2nd index = 8
 
 printLL(head)
 
-
 class Node:
     def __init__(self, data):
         self.data = data
