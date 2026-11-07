@@ -100,7 +100,6 @@ obj.insertAtTheEnd(40)
 obj.insertAtBeg(5)
 obj.printLL()
 
-
 # intert at the middle
 class Node:
     def __init__(self, data):
