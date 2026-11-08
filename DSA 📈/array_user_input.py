@@ -7,7 +7,7 @@ for x in a:
     print(x,end=" ")
 
 
-from array import *
+
 arr = array('i',[1,2,34,23,45,43,67,32])
 a = arr.index(43)
 print(a)
@@ -15,7 +15,7 @@ print(a)
 
 
 # Take both the element and index element to print the elements and the index number from user
-from array import *
+
 arr = array('i',[])
 b = int(input("Enter how many numbers :"))
 for i in range(0,b):
