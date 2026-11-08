@@ -6,8 +6,6 @@ for i in range(0, b):
 for x in a:
     print(x,end=" ")
 
-
-
 arr = array('i',[1,2,34,23,45,43,67,32])
 a = arr.index(43)
 print(a)
