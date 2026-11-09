@@ -8,7 +8,6 @@ def Divide(arr,l,r):
 def Merge(arr , l , m , r):    #     |    |
     s1 = m - l +1  # ________________|    |
     s2 =  r - m    # _____________________|
-
     L = [0] * s1
     R = [0] * s2
 
@@ -17,7 +16,6 @@ def Merge(arr , l , m , r):    #     |    |
 
     for j in range(s2): # runs from 0 to s2
         R[j] = arr[m+1+j] # starts from left array(m+1) and ends copy from original array(s2)
-
     i = j = 0
     k = l
 
