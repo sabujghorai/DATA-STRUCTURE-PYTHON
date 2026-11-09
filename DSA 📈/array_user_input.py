@@ -11,7 +11,6 @@ a = arr.index(43)
 print(a)
 
 
-
 # Take both the element and index element to print the elements and the index number from user
 
 arr = array('i',[])
