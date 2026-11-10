@@ -20,7 +20,6 @@ class Graph :
         while(queue): # means queue is not equal to None
             v = queue.popleft()
             print(v,end = " ")
-
             for i in range(self.size):
                 if(self.matrix[v][i] == 1 and visited[i] == False):
                     visited[i] =True
