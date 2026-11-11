@@ -34,4 +34,4 @@ G.add_edge(5,4)
 G.add_edge(4,6)
 G.add_edge(6,2)
 G.add_edge(6,7)
-G.BSF(0)git add . && git commit -m "Removed print". && git commit -m "Removd Hor i 7gi ush inan
+G.BSF(0)
